@@ -5,14 +5,10 @@
 
 
 $('body').jQlouds({
-  maxClouds: 10
-});
-
-$('body').jQlouds({
+  maxClouds: 10,
+  minClouds: 10,
   maxWidth: 300,
-  maxHeight: 200
-});
-
-$('body').jQlouds({
-  wind: true
+  maxHeight: 200,
+  wind: true,
+  src: 'img/new-cloud.png'
 });
